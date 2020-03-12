@@ -7,7 +7,7 @@ There may be some features in Yuka that may be too hard or difficult to do in de
 
 Naming conventions for reactive modules is prefixed with `packagename_ClassName` or `packagename_commonModule` rather than regular ClassName. Might have to import individual asset files directly into Spark AR editor as assets in order to get stuff to work.
 
-To get type hinting/intellisense to work, you need run a dummy .arproj at the root with Spark AR, then create a dummy script asset to form a locally defined `tsconfig.json` at root. To allow typehinting to work across all sub-directories, you have to manually delete off the `"include":["*.js"]}` in the tsconfig file.
+To get type hinting/intellisense to work, you need run a dummy .arproj at the root with Spark AR, then create a dummy script asset to form a locally defined `tsconfig.json` at scripts folder. Current caveat atm: To allow typehinting to work across all sub-directories, you have to manually delete off the `"include":["*.js"]}` in the tsconfig file.
 
 Some important things to take note for Spark AR at the time of writing this (some of YUKA library features uses certain incompatible features with Spark AR):
 
