@@ -1,5 +1,5 @@
 # sparkyuka
-(incomplete, do contribute) A port (some of) Yuka library's functionality to use Spark AR declarative signal bindings .
+(incomplete, do contribute) A port (some of) Yuka library's functionality to use Spark AR declarative signal bindings and all of Spark AR's data structures whenever possible. (https://sparkar.facebook.com/ar-studio/learn/documentation/reference/scripting/summary)
 
 Refer to https://github.com/Mugen87/yuka for the entire library.
 
