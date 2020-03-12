@@ -9,7 +9,7 @@ Naming conventions for reactive modules is prefixed with `packagename_ClassName`
 
 To get type hinting/intellisense to work, you need run a dummy .arproj at the root with Spark AR, then create a dummy script asset to form a locally defined `tsconfig.json` at scripts folder. Current caveat atm: To allow typehinting to work across all sub-directories, you have to manually delete off the `"include":["*.js"]}` in the tsconfig file.
 
-Some important things to take note for Spark AR at the time of writing this (some of YUKA library features uses certain incompatible features with Spark AR):
+Some important things to take note for Spark AR at the time of writing this (some of YUKA library codes uses certain incompatible features with Spark AR):
 
 - No TypedArrays available in Spark AR javascript environment. (eg. Float32Array, Int32Array)
 - No Object.freeze available as well either.
