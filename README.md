@@ -1,7 +1,7 @@
 # sparkyuka
 (incomplete, do contribute) A port (some of) Yuka library's functionality to use Spark AR declarative signal bindings and all of Spark AR's data structures whenever possible. (https://sparkar.facebook.com/ar-studio/learn/documentation/reference/scripting/summary)
 
-Refer to https://github.com/Mugen87/yuka for the entire YUKA library.
+Refer to https://github.com/Mugen87/yuka for the entire Yuka library.
 
 There may be some features in Yuka that may be too hard or difficult to do in declarative reactive (signal-binding) approach. https://sparkar.facebook.com/ar-studio/learn/documentation/scripting/reactive/ If this is so, then these features would rather not be ported. Instead, both libraries can be kept side by side depending on what is needed, and perhaps some helper methods to translate Spark AR signal binding values to YUKA's default imperative class instances.
 
