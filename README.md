@@ -12,6 +12,6 @@ To get type hinting/intellisense to work, you need run a dummy .arproj at the ro
 Some important things to take note for Spark AR at the time of writing this (some of YUKA library codes uses certain incompatible features with Spark AR):
 
 - No TypedArrays available in Spark AR javascript environment. (eg. Float32Array, Int32Array)
-- No Object.freeze available as well either.
+- No Object.freeze available as well either. (using a build toolchain like Webpack/Rollup,etc. together with an npm polyfill like  "core-js/modules/es.object.freeze" can provide you this feature, though).
 - No import from npm eco-system (unless you use a Webpack/Rollup/etc. build toolchain or something).
 - Imports only work for script files being manually imported into Spark AR project as well.  (unless you use a Webpack/Rollup/etc. build toolchain or something).
